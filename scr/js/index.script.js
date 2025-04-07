@@ -67,20 +67,47 @@
 // console.log(num1 === num2)
 
 //estrutura condicional
-let num = 10
-if (num == 10) {
-    console.log("é vrerdade")
-} else {
-    console.log("é flaso")
-}
+// let num = 10
+// if (num == 10) {
+//     console.log("é vrerdade")
+// } else {
+//     console.log("é flaso")
+// }
 
-//if encadeado /aninhado 
+// //if encadeado /aninhado 
 
-let idade = prompt("quantos anos vc tem")
-if (idade < 15) {
-    console.log("menor de idade")
-} else if (idade > 15 && idade < 18) {
-    console.log("nao é de maior mas entra")
-} else {
-    console.log("liberado")
-}
+// let idade = 15
+// if (idade < 15) {
+//     console.log("menor de idade")
+// } else if (idade > 15 && idade < 18) {
+//     console.log("nao é de maior mas entra")
+// } else {
+//     console.log("liberado")
+// }
+
+// let = Time
+// switch (Time) {
+//     case "corinthias":
+//         console.log("time 1")
+//         break
+//     case "sao paulo":
+//         console.log("time 2")
+//         break
+//     case "palmeiras":
+//         console.log("time 3")
+//         break
+//     default:
+//         console.log("nuunhuma das opcoes")
+// }
+
+//ternario 
+
+// let valor = 110
+
+// let resultado = valor == 100 ? "certo " : "errado"
+// console.log(resultado)
+
+let produto = "notebook"
+const desconto = true
+const preco = produto = "notebook" ? desconto ? 100 : 200 : produto === "mouse" ? 30 : 100
+console.log(preco)
