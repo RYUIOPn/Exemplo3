@@ -107,7 +107,14 @@
 // let resultado = valor == 100 ? "certo " : "errado"
 // console.log(resultado)
 
-let produto = "notebook"
-const desconto = true
-const preco = produto = "notebook" ? desconto ? 100 : 200 : produto === "mouse" ? 30 : 100
-console.log(preco)
+// let produto = "notebook"
+// const desconto = true
+// const preco = produto = "notebook" ? desconto ? 100 : 200 : produto === "mouse" ? 30 : 100
+// console.log(preco)
+
+//for
+let numeroDeRepeticao = 100
+for (let i = 0; i < numeroDeRepeticao; i++) {
+    console.log(`n.${i} nova mensagem `)
+
+}
