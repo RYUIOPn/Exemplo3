@@ -49,19 +49,38 @@
 
 // //operadores aritmeticos 
 
-const num1 = 10
-const num2 = 20
+// const num1 = 20
+// const num2 = 30
 
-// console.log(num1 + num2)
-// console.log(num1 - num2)
+// // console.log(num1 + num2)
+// // console.log(num1 - num2)
 
-//operadores logicos 
+// //operadores logicos 
 
-console.log(num1 < num2)
-console.log(num1 > num2 && num2 < num1)
-console.log(num1 >num2 || num2 < num1)
+// console.log(num1 < num2)
+// console.log(num1 > num2 && num2 < num1)
+// console.log(num1 < num2 || num2 < num1)
 
-//operadores de comparação 
+// //operadores de comparação 
 
-console.log (num1 == num2)
-console.log (num1 === num2)
+// console.log(num1 == num2)
+// console.log(num1 === num2)
+
+//estrutura condicional
+let num = 10
+if (num == 10) {
+    console.log("é vrerdade")
+} else {
+    console.log("é flaso")
+}
+
+//if encadeado /aninhado 
+
+let idade = prompt("quantos anos vc tem")
+if (idade < 15) {
+    console.log("menor de idade")
+} else if (idade > 15 && idade < 18) {
+    console.log("nao é de maior mas entra")
+} else {
+    console.log("liberado")
+}
